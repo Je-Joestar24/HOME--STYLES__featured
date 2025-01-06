@@ -1,0 +1,14 @@
+/* Featured__header: Header section for the featured content */
+.Featured__header {
+  text-align: center;
+  margin-bottom: var(--element-spacing);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Featured__title: Title for the featured section */
+.Featured__title {
+  color: var(--primary-brown);
+  font-size: var(--h2-size);
+  margin-bottom: 1rem;
+}

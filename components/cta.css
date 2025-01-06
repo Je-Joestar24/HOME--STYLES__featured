@@ -1,0 +1,24 @@
+/* Featured__cta: Call-to-action section */
+.Featured__cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Featured__cta-btn: Call-to-action button */
+.Featured__cta-btn {
+  background-color: var(--primary-brown);
+  color: var(--text-light);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* Featured__cta-btn:hover: Hover state for the call-to-action button */
+.Featured__cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-green);
+  color: var(--text-dark);
+}

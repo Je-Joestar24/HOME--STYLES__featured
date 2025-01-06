@@ -1,1 +1,42 @@
- 
+@import "components/header.css";
+@import "components/cards.css";
+@import "components/responsive.css";
+@import "components/cta.css";
+
+
+/* Featured__wrapper: Container for the featured section */
+.Featured__wrapper {
+  padding: var(--section-spacing) 1rem;
+  background-color: var(--pastel-cream);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Featured__content: Content wrapper for the featured section */
+.Featured__content {
+  max-width: var(--container-max-width);
+  width: 100%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

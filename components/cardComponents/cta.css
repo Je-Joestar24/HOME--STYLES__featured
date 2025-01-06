@@ -1,0 +1,31 @@
+/* Featured__card-buttons: Button container for the featured card */
+.Featured__card-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Featured__card-btn: Button for the featured card */
+.Featured__card-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+/* Featured__card-btn--read: Read button for the featured card */
+.Featured__card-btn--read {
+  background-color: var(--primary-green);
+  color: var(--text-dark);
+}
+
+/* Featured__card-btn--favorite: Favorite button for the featured card */
+.Featured__card-btn--favorite {
+  background-color: var(--pastel-taupe);
+  color: var(--text-dark);
+}
+
+/* Featured__card-btn:hover: Hover state for the card button */
+.Featured__card-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
